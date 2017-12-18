@@ -1,0 +1,222 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header style*/
+.home{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/assets/images/home-background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+
+}
+.home div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 55px;
+    align-items: center;
+    
+}
+.home div h1{
+    color:#f1f1f1;
+    font-size: 4em;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 0px 1px #000;
+    padding-bottom: 0px;
+}
+
+.home div img{
+    width: 180px;
+    border-radius: 100px;
+    border: solid;
+    border-color: white;
+    border-width: 3px;
+}
+.home div h3{
+    font-family: 'Barlow',sans-serif;
+    color:white;
+    text-shadow: 1px 1px 1px #000;
+    font-size:1.5em;
+}
+
+/*Simple line*/
+.slimLine{
+    background-color: white;
+    width: 500px;
+    height:2px;
+}
+
+/*Navbar style*/
+.nav{
+    background-color: #0076A3;
+    text-align: center;
+    width: 100%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.nav ul{
+    list-style: none;
+}
+.nav li{
+    display: inline;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top:18px;
+    padding-bottom: 20px;
+}
+.nav li:hover{
+
+    background-color:#033649;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    height:40px;
+}
+.fixar {
+    position: fixed;
+    top: 0;
+    z-index:99;
+    width: 100%; 
+    clear: both;
+}
+
+/*Cores dos icones*/
+.paintBlue{
+    color:darkblue;
+}
+.size20{
+    width: 20px;
+}
+.blue{
+    color: #033649;
+}
+.radius{
+    border-color: #033649;;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 105px;
+    padding: 25px;
+}
+/*Services Style*/
+.services{
+    padding-top: 110px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.title{
+    font-size: 2.4em;
+    font-family: 'Josefin Sans',sans-serif;
+}
+.subTitle{
+    font-family: 'Josefin Sans',sans-serif;
+    font-weight: 300;
+    font-size: 1.3em;
+}
+.serviceGroup{
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: wrap;
+    padding-top:20px;
+    justify-content: center;
+
+}
+.serviceList{
+    width: 20%;
+    padding:20px;
+
+}
+.btnMore{
+    border-color: #19697D;
+    color: #033649;
+    padding: 5px;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    width: 100px;
+    border-radius: 20px;
+    transition: background-color,width 0.5s ease-out;
+}
+.btnMore:hover{
+    background-color:#19697D;
+    color:white;
+    padding: 6px;
+    width: 120px;
+    cursor: pointer;
+    transition: background-color,width 0.5s ease-out;
+}
+
+
+/*About me*/
+.project{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 100px;
+    background-color: #f1f1f1;
+}
+.myWork{
+    padding-top: 30px;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: wrap;
+}
+.divImg{
+    width: 60%;
+    justify-content: center;
+}
+.divDesc{
+    width: 30%;
+    text-align: left;
+}
+.divDesc a{
+    font-family: 'Anton',serif;
+    font-size: 2.0em;
+    color: red;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color:black;
+    padding:0px 35px 0px 35px;
+}
+.divDesc span{
+    color:#0B7A96;
+}
+
+.project img{
+    width: 80%;
+}
+
+/*Contato*/
+.contact{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.divContact{
+    padding-top: 30px;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: wrap;
+}
+.contacForm{
+    width: 60%;
+}
+.contacForm input{
+    padding: 05px;
+}
+.ContactMe{
+    width: 40%;
+}
