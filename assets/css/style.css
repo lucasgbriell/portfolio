@@ -8,7 +8,7 @@ body{
     margin: 0px;
     display: flex;
     flex-direction: column;
-    background-image: url("assets/images/home-background2.jpg");
+    background-image: url("https://raw.githubusercontent.com/lucasgbriell/portfolio/master/assets/images/home-background2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
