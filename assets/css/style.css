@@ -15,7 +15,11 @@ body{
     margin: 0px;
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     background-image: url("/assets/images/home-background.jpg");
+=======
+    background-image: url("https://raw.githubusercontent.com/lucasgbriell/portfolio/master/assets/images/home-background2.jpg");
+>>>>>>> e397fbb76d09076551a36680a0cd24bbee2aaa7d
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
@@ -295,6 +299,7 @@ body{
 }
 .lang{
     width: 40%;
+<<<<<<< HEAD
     text-align: left;
     padding-left: 20px;
 }
@@ -442,3 +447,6 @@ body{
         width: 100%;
     }
 }
+=======
+}
+>>>>>>> e397fbb76d09076551a36680a0cd24bbee2aaa7d
