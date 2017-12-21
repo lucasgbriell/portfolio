@@ -8,8 +8,3 @@ $(function(){
         } 
     });  
 });
-
-$("span").click(function(){
-    var ul = $('#opNavbar');
-    ul.addClass("navDisplay");
-});
