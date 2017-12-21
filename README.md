@@ -1,7 +1,7 @@
-##My portfólio
+## My portfólio
 
- ###Want to contact me?
+ ### Want to contact me?
  www.lucasgabrielhonorio.com
 
- ###or,email me:
+ ### or,email me:
  lucasgabrielhonorio@gmail.com
